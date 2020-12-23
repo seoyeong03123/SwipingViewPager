@@ -11,20 +11,20 @@ public class Hats {
         return SNAPBACKS;
     }
 
-    public static final Hat SNAPBACK_BLACK = new Hat("Black Snapback", R.drawable.snapback_black,
-             new BigDecimal(20.99), 9377376);
-    public static final Hat SNAPBACK_CAMO = new Hat("Camo Snapback", R.drawable.snapback_camo,
-             new BigDecimal(20.99), 9377377);
-    public static final Hat SNAPBACK_GREY = new Hat("Grey Snapback", R.drawable.snapback_grey,
-             new BigDecimal(20.99), 9377378);
-    public static final Hat SNAPBACK_NAVY = new Hat("Navy Snapback", R.drawable.snapback_navy,
-             new BigDecimal(20.99), 9377379);
-    public static final Hat SNAPBACK_RED = new Hat("Red Snapback", R.drawable.snapback_red,
-             new BigDecimal(20.99), 9377380);
-    public static final Hat SNAPBACK_TEAL = new Hat("Teal Snapback", R.drawable.snapback_teal,
-             new BigDecimal(20.99), 9377381);
+/*    public static final Hat SAMPLE1 = new Hat("title1", "subtitle1", R.drawable.snapback_black);
+    public static final Hat SAMPLE2 = new Hat("title2","subtitle2", R.drawable.snapback_camo);
+    public static final Hat SAMPLE3 = new Hat("title3", "subtitle3", R.drawable.snapback_grey);
+    public static final Hat SAMPLE4 = new Hat("title4", "subtitle4", R.drawable.snapback_navy);
+    public static final Hat SAMPLE5 = new Hat("title5", "subtitle5", R.drawable.snapback_red);
+    public static final Hat SAMPLE6 = new Hat("title6", "subtitle6", R.drawable.snapback_teal);*/
+    public static final Hat SAMPLE1 = new Hat(R.drawable.snapback_black);
+    public static final Hat SAMPLE2 = new Hat(R.drawable.snapback_camo);
+    public static final Hat SAMPLE3 = new Hat(R.drawable.snapback_grey);
+    public static final Hat SAMPLE4 = new Hat(R.drawable.snapback_navy);
+    public static final Hat SAMPLE5 = new Hat(R.drawable.snapback_red);
+    public static final Hat SAMPLE6 = new Hat(R.drawable.snapback_teal);
 
-    public static final Hat[] SNAPBACKS = {SNAPBACK_NAVY, SNAPBACK_BLACK, SNAPBACK_CAMO, SNAPBACK_GREY, SNAPBACK_RED, SNAPBACK_TEAL};
+    public static final Hat[] SNAPBACKS = {SAMPLE1, SAMPLE2, SAMPLE3, SAMPLE4, SAMPLE5, SAMPLE6};
 
 
 

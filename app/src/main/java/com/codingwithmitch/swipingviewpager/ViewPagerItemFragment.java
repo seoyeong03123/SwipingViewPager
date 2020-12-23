@@ -19,7 +19,6 @@ public class ViewPagerItemFragment extends Fragment {
 
     // widgets
     private ImageView mImage;
-    private TextView mTitle, mPrice;
 
     // vars
     private Hat mHat;
@@ -52,8 +51,6 @@ public class ViewPagerItemFragment extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         mImage = view.findViewById(R.id.image);
-        mTitle = view.findViewById(R.id.title);
-        mPrice = view.findViewById(R.id.price);
         init();
     }
 
@@ -67,8 +64,6 @@ public class ViewPagerItemFragment extends Fragment {
                     .load(mHat.getImage())
                     .into(mImage);
 
-            mTitle.setText(mHat.getTitle());
-            mPrice.setText(BigDecimalUtil.getValue(mHat.getPrice()));
         }
     }
 }
